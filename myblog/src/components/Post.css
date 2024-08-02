@@ -1,0 +1,47 @@
+/* Post.css */
+
+.post-inline-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 20px; /* Add some gap between post containers */
+}
+
+.post-container {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.post-container img {
+  width: 100%;
+  height: 200px; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.post-content {
+  padding: 10px 0;
+}
+
+.post-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post-description {
+  margin-bottom: 5px;
+}
+
+.post-category {
+  margin-bottom: 5px;
+}
+
+.post-created-date {
+  font-style: italic;
+}
