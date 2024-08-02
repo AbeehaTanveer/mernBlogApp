@@ -1,7 +1,7 @@
 
 
 import axios from 'axios';
-const apiUrl='http://localhost:1025/';
+const apiUrl='';
 export const singlefileuploaded=async(data)=>{
     try {
         await axios.post(apiUrl+ 'singleFile',data);
